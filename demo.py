@@ -5,7 +5,7 @@ import numpy as np
 
 #  Load the encoding file
 print("Loading Encode File___")
-file = open("SaveFile.p",'rb')
+file = open(r"Encodings\SaveFile.p",'rb')
 encodeListKnownWithIds = pickle.load(file)
 file.close()
 encodeListKnown, studentIds = encodeListKnownWithIds
